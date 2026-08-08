@@ -33,3 +33,4 @@ A simple and responsive task-management web app created while learning HTML, CSS
 Continue learning JavaScript and move towards React development.
 
 Made with ❤️ by Padmaja
+🌐 Live Demo: https://padmajasiva.github.io/taskverse/
