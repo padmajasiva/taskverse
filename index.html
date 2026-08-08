@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskVerse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <header class="header">
+
+        <div class="brand">
+            <div class="logo">📋</div>
+
+            <div>
+                <h1>TaskVerse</h1>
+                <p>Plan. Focus. Achieve.</p>
+            </div>
+        </div>
+
+        <button id="themeBtn" class="theme-btn">☀️</button>
+
+    </header>
+
+
+    <section class="greeting">
+        <h2>Good Morning ☀️</h2>
+        <p>Stay focused and build your future.</p>
+    </section>
+
+
+    <section class="add-task">
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="✨ Add a new task..."
+        >
+
+        <button id="addTaskBtn">+</button>
+
+    </section>
+
+
+    <section class="progress-card">
+
+        <h3>Today's Progress</h3>
+
+        <div class="progress-bar">
+            <div id="progressFill"></div>
+        </div>
+
+        <p id="progressText">0 of 3 tasks completed</p>
+
+    </section>
+
+
+    <section class="tasks-section">
+
+        <h3>Your Tasks</h3>
+
+        <ul id="taskList">
+
+            <li class="task">
+
+                <label>
+                    <input type="checkbox">
+                    <span>Drink 2L of Water</span>
+                </label>
+
+                <button class="delete-btn">🗑️</button>
+
+            </li>
+
+
+            <li class="task">
+
+                <label>
+                    <input type="checkbox">
+                    <span>Study for 2 Hours</span>
+                </label>
+
+                <button class="delete-btn">🗑️</button>
+
+            </li>
+
+
+            <li class="task">
+
+                <label>
+                    <input type="checkbox">
+                    <span>Workout for 30 Minutes</span>
+                </label>
+
+                <button class="delete-btn">🗑️</button>
+
+            </li>
+
+        </ul>
+
+    </section>
+
+
+    <footer>
+        <p>Made with ❤️ by Padmaja</p>
+    </footer>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
